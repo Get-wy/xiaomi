@@ -15,25 +15,41 @@
 
 }
 .biaodan .qian{
-		width: 230px;
-		height: 44px;
-		float: left;
-		/* overflow: hidden; */
+		width: 223px;
+    height: 48px;
+    padding: 0 10px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    line-height: 48px;
+    outline: 0;
+
 }
 .biaodan .icon{
-		width: 60px;
-		height: 48px;
-		float: left;
-		border-top: 1px solid #A9A9A9;
-		border-right: 1px solid #A9A9A9;
-
-		border-bottom: 1px solid #A9A9A9;
+		outline: 0;
+	display: block;
+	float: right;
+	font-family: 'iconfont';
+	width: 49px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    font-size: 24px;
+    line-height: 24px;
+    background: #fff;
+    color: #616161;	
+    cursor: pointer;
 
 		/* overflow: hidden; */
 }
 .sousuo .icon{
 	font-family: 'iconfont';
 }
+.sousuo .icon:hover{
+	font-family: 'iconfont';
+	background-color: #ff6700;
+	color: white;
+}
+
+
 .nav_bottom_tu2:hover{
     box-shadow: 0 10px 20px 0px #C4C4C4;
 }
@@ -61,7 +77,7 @@
 
 	box-shadow: 0 10px 20px 5px #D3D3D3;
 	transform: translate(0, -5px);
-	transition: all 0.3s linear;
+	/* transition: all 0.3s linear; */
 
 }
 
@@ -77,7 +93,7 @@
 
 	box-shadow: 0 10px 20px 5px #D3D3D3;
 	transform: translate(0, -3px);
-	transition: all 0.3s linear;
+	/* transition: all 0.3s linear; */
 
 }
 .bottom1:hover .zhineng_tan {
@@ -340,6 +356,7 @@
 	float: left;
 	position: relative;
 	overflow: hidden;
+	transition: all 0.3s linear;
 }
 
 .big_pic1_right{
@@ -453,11 +470,12 @@
 	margin: 0 14px 14px 0;
 	float: left;
     overflow: hidden;
+    transition: all 0.3s linear;
 }
 .bottom1_1:hover {
     box-shadow: 0 10px 20px 5px #D3D3D3;
     transform: translate(0, -3px);
-    transition: all 0.3s linear;
+    /* transition: all 0.3s linear; */
 }
 .bottom1_1:hover .zhineng_tan {
 
@@ -468,7 +486,7 @@
 .bottom2:hover {
     box-shadow: 0 10px 20px 5px #D3D3D3;
     transform: translate(0, -3px);
-    transition: all 0.3s linear;
+    /* transition: all 0.3s linear; */
 }
 .bottom2:hover .zhineng_tan {
 
@@ -479,7 +497,7 @@
 .bottom1_2:hover {
     box-shadow: 0 10px 20px 5px #D3D3D3;
     transform: translate(0, -3px);
-    transition: all 0.3s linear;
+    /* transition: all 0.3s linear; */
 }
 .bottom1_2:hover .zhineng_tan {
 
@@ -496,6 +514,7 @@
 	margin: 0 0 14px 0;
 	float: left;
 	overflow: hidden;
+	    transition: all 0.3s linear;
 }
 .bottom1 dianyuan{
 	width: 234px;
@@ -561,6 +580,7 @@
 	margin: 0 14px 0 0;
 	float: left;
 	overflow: hidden;
+	transition: all 0.3s linear;
 }
 
 .bottom1 naozhong{
@@ -607,6 +627,7 @@
 	font-size: 12px;
 	margin-top: 10px;
 	text-align: center;
+	    transition: all 0.3s linear;
 }
 
 .bottom1_2{
@@ -616,6 +637,7 @@
 	margin: 0 0 0 0;
 	float: left;
 	overflow: hidden;
+	transition: all 0.3s linear;
 }
 .peijian{
 
@@ -655,6 +677,8 @@
 	float: left;
 	display: inline-block;
 	background-color: #FFFFFF;
+
+ transition: all 0.3s linear;
 }
 
 .repin_bottom2{
@@ -663,6 +687,8 @@
 	float: left;
 	margin-left: 14px;
 	background-color: #FFFFFF;
+
+ transition: all 0.3s linear;
 }
 .repin_tu{
 	width: 296px;
@@ -720,6 +746,7 @@
 	background-color: #FFFFFF;
 	margin-right: 14px;
 	border-top: 1px solid #FFCC6F;
+	    transition: all 0.3s linear;
 
 
 }
@@ -737,6 +764,8 @@
 	float: left; 
 	display: inline-block;
 	background-color: #FFFFFF;
+
+ transition: all 0.3s linear;
 }
 
 .color2{
@@ -814,6 +843,7 @@
     float: left;
 	margin-right: 14px;
 	position: relative;
+	    transition: all 0.3s linear;
 }
 .shipin1_bofang{
 	font-family: iconfont;
@@ -857,6 +887,7 @@
 	float: left;
 
 	position: relative;
+	    transition: all 0.3s linear;
 }
 .shipin1_wenzi1{
 	font-size: 12px;
@@ -1297,7 +1328,6 @@ box-shadow: 0 10px 20px 5px #D3D3D3;
 
  transform: translate(0, -5px);
 
- transition: all 0.3s linear;
 
 }
 .repin_bottom2:hover {
@@ -1306,7 +1336,6 @@ box-shadow: 0 10px 20px 5px #D3D3D3;
 
  transform: translate(0, -5px);
 
- transition: all 0.3s linear;
 
 }
 .neirong_bottom1:hover {
@@ -1315,7 +1344,6 @@ box-shadow: 0 10px 20px 5px #D3D3D3;
 
  transform: translate(0, -5px);
 
- transition: all 0.3s linear;
 
 }
 .neirong_bottom2.color2:hover {
@@ -1324,7 +1352,6 @@ box-shadow: 0 10px 20px 5px #D3D3D3;
 
  transform: translate(0, -5px);
 
- transition: all 0.3s linear;
 
 }
 .shipin1:hover {
@@ -1333,7 +1360,6 @@ box-shadow: 0 10px 20px 5px #D3D3D3;
 
  transform: translate(0, -5px);
 
- transition: all 0.3s linear;
 
 }
 .shipin2:hover {
@@ -1342,6 +1368,5 @@ box-shadow: 0 10px 20px 5px #D3D3D3;
 
  transform: translate(0, -5px);
 
- transition: all 0.3s linear;
 
 }
