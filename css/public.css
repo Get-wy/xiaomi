@@ -1,9 +1,10 @@
-
-
-*{
-	margin: 0;/* body-8px */
+*
+{
+	margin: 0;
+	/* body-8 */
 	padding: 0;
 	text-decoration: none;
+	/* 文本修饰 无 */
 	font-style: normal;
 	list-style: none;
 }
