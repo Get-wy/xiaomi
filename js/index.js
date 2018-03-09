@@ -112,8 +112,11 @@
 }
 //content
 {
-    const types=document.querySelectorAll(".dapei span");
-    const goods=document.querySelectorAll(".goodlist");
+    function content(parent) {
+
+
+    const types=parent.querySelectorAll(".dapei span");
+    const goods=parent.querySelectorAll(".goodlist");
     console.log(goods);
     console.log(types);
     types.forEach(function(ele,index){
@@ -126,5 +129,9 @@
             this.classList.add("active");
             goods[index].classList.add("active1");
         }
-    })
+    }) }
+    contentList=document.querySelectorAll(".dapei");
+    contentList.forEach(function (ele) {
+        content(ele);
+    });
 }

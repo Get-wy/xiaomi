@@ -515,14 +515,22 @@
 }
 .renmen_wenzi
 {
-	float: right;
-	margin: 10px 0 0 20px;
+	float: left;
+	margin: 20px 0 0 20px;
 }
 .xiahua
 {
 	border-bottom: 2px solid #ff6700;
 }
-
+.remenright{
+	margin-left: 910px;
+}
+.peijianright{
+	margin-left: 950px;
+}
+.zhoubianright{
+	margin-left: 900px;
+}
 .bordr
 {
 	border-bottom: 1px solid black;
